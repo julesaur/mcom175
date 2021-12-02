@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "MyWebFont";
+  src: url("assets/font.ttf"),
+    url("assets/font.ttf")
+      format("truetype");;
+}
+
+@font-face {
+  font-family: "basic";
+  src: url("assets/basic.otf"),
+    url("assets/basic.otf")
+      format("opentype");;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #DEC4CE;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/socialchannel.png");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border-style: solid;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  text-align: center;
+  cursor: pointer;
+  font-family: "basic";
+}
+
+.hero-text button:hover {
+  background-color: #DEC4CE;
+  color: white;
+}
+
+
+h1{
+  font-family: "MyWebFont";
+}
+
+p{
+  font-family: "basic";
+  font-size: 20px;
+}
